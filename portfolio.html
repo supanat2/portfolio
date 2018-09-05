@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!-- Document responsive across devices. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Document's character set. -->
+    <meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css"
+	      href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+
+	<div class="header-container">
+		<header>My Name is SUPANAT</header>
+
+		<nav>
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="main-container">
+		<section id="project-portfolio">
+			<h2>What I like</h2>
+
+			<!-- Using single placeholder image for now. -->
+			<ul class="project">
+				<li class="box"><div><img class="project" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUkAAACZCAMAAACVHTgBAAAAw1BMVEXQACf////QACXNAADQACLQACT//f7PABvPAB3PAB/98PPOABHOABXOAA744OPolqLqoKrOAAj++frtrLX32d775+vmjZnxvMT76u31z9XieIb43eHnkZ30ytDSAC399fbsqbLdXW7hd4TvtL3lhpPjf4zga3vxu8TWMkn1zNPfbXvbTGHcVGfzxMzVID/eZHPZP1fYNE7XPFHUGTrWGj/cTGTeWG7iZHvTIjrkcYbWNUnbMlTVLEPeaXbUAjPohpjYRldup6bxAAAR2klEQVR4nO2dCZeiSLbHuQSI7AEEOyIIuLCqdGZl9ZiW3/9TTaC5T7/qeW/mvOoZ43dOJipgUf9z4y6xJccxGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg/EJUfrVT/BfgniKmJT/DkTpcYOEX/0U/wWIT2Hghhcm5b/IXJoPeJVUK0liLfxfQaoqEVnZYo74FdZ+9dP8J6MlYBguWSiGC476q5/mPxnN67Z1rumH9TbLmJL/AvM6RJL2vQ0r1FXMUf4f4emPwC1lUfyxgyfB/V1++ZDxv0PlNI5P812pX+wZRjUZnnhOSjWm5Z8yn7+84CWe59VMMTVpAHBlqQu+IdeGSpKiZSGLPC+JL5cK8//p2+4YqVzdHCEtDnlOSDdVeU7ReuP4aL0+Z53jIe6pNrNG4oRoe5NSzhOWGn1F0jFGk4Xx+hgErruwj+gQd+6Rc53DwVT43liEOerd0HDd5cmaGrmMIh8xKT8jlWFMyDDnROQtgWIDxAYsT6o1Kt1GOVlaGsxcMrueARtrAic3YejuWML+GbVbY+w5liQsJh09WWoMWJxNlOPaig2tMXNUXhwIhrkUUTmBpJruZSv/aFi/+tn/SvCSPh/L/Kg2g0FjjO0jkbcygAqV/lB4OKu79cJDOYCviTzCQK8K6ka7XHAq6iycv8HzJc6wG2McTBpFHtY1/UgbOZGXDRqVLNv9ttwHaQegrC1NLbOG6g1KhndLeqPJssw35JY07WXfNPsxH0iuCmdsjjQFUh6JTSPNMnDHbj9bE5oInUu8lbWt0kYjvb7Zt81uxYqfN3jL1dWy6/xNLqD+IqdBveyQbrhRtQaTGiDedTuMQyWlbX5wL/PTEal50XWdqc13qfjn/8KdMJ8jQ8LOiLgmC1cbSzdLNcuRrBQrz3EX1D1GqEBVYs7O1sXh1o6lO+tdkafojAtpJ8rMKG/Mh+86kXaSaG4lq3eBbGuMEMIVbI/LEBWzbtc5SmE048wszwhV3tjB8oCkFKfIlbqnlo3z3LBcycTWrj1TN5h2uMTxDsychpe1pvtrfehw1tV+HWpSa0M4eLPQcMokPFNHejzFqCwskrKYM2VAKAozhLaLDVZVzaLWiPqyM4g5Ik3VM7+w8AZloSPrGuITEu+843QNklVkdouGGm9nIpYJ0QSmNJPSM02z9KbfN5KyLG/vPPpxGHteWb68Lcvk7TL6cXK9xEzku5eS5wP4N7CUmJJ8YA6+F30jDySJir2NS1ju7SJ7+G7m8A1/S8o1IftlEUZ+CH4E38LHmJaTAI9kuf5mPNibrKxihTVvnnchL3G3rPMZzuAABa0S8xVZPIR2A2tSutWmgmHRbML1ADsPhhUtg8LfCDwrJYnLoQq7nChMSaqkAb6T+bB6BNzB32Dj0HobR2Tv0INP8jDhbMDtar0zhyBM4PuBlpFRGMFaqcjye2WWu3VkMyWvSjpYaQszyvYbOGdlhOEBtt3WCY2UNmfnsYjAWHfegKOqWzv7+BCQ1umDJsuiLHuEMWzCHVPy2rqNGNwF2F0QzMLQWLizEBSXhDMwwAhJbIcBLGfuYhYsgjAOFYOEBBYkXMzihd1BYGxwoLCIw3PUySlBYATKB4KX39MxMFzX/XT2E+71dzy/eyWpUQqCILUZrwl/hIxyJ8twr//hWUFSk+2cHnkm5CQlz+sYjK0l8l8RtTkN5aFLK0dL/oezPK8+xVBp06tf/b/4q6AXALYnfQkbvKSvDZglfU9P+1vry8w/WmfWCkDJBnI+YG3ABwjKOZKEycDojyBZ1poAdOMa3H1LJXP66eztBl6c6ygPAWJgA7UfQTu4pFRL8FdbTtJUbc6d1gVNHMNDfx0ic9SSahlWW1lXNY1ekLbZNDxxHMBkM68+gELY41OfUbVAISFNfa6vnO3ovBTWSiWuqIXSdCnzSi8LqYx213LrFjBT8gOIzA7LWTekuUOC2VU5kuVc68/eOykC7zxGnfvyzu1W52022+2Zkp+wqJKTFS43US/y6TkV5D7aKF97fELvoMn9vtlvuXOLJ1EXB3D0X/30fyWs+KbkxMwlhBizryq+YoSLRUheL2ZKfsGK7ZMCypJ6v6U9s22q55K+mFE9b5LOXpS9Ha4XXM8u9kzJT9yUHOYhzNpzuE2XEItlMY5CQtLx0IHRjz1N0ZP0jKmQJS+VEJynuQVMyS/cWrc5UiurzpBYNKJIMxeFQQGoyJALJzNEG7NXDC0Br18qaQ19NbVuFrs/QyPOlip5mpQ8AUEd4BoMmhvNwPIDRKiScDHPtNTB1kylhwItT+WUfw5MyU9MWZAL5vGmJGxXcAzB0PItAa28UMlOSYF2KKbhG3VUWCr2butRJTfPLDP/BLW+o/GuJE6NkUZpC3sxCOmRKnbq69i9SVjQi6m9dtvJJp2aVYufsDrYE0i2cFPS1R+9Sa2pUFSxSKPMNdJoNOj4SOFN6h9RcFUSl6wH4xPWBpoQvJPr46inAh0n84uRH0cu2jg04owJ/dQ8K9DkgAV31jYwlsvCNxNgU1k+omYwbGDf/8YtDikV0WmnZGf8LY02+hrKE+EepjxypXEtTX1KSWwUA3EpmlUODEzJD6gmVK99FT9jubzl58vXD3IfWvlXP/1fB56TKki8pXEjfjnEby8/8fEz+0jgyIYeXuFHSVpDVmKk9k2P+j3SUHNG+22TnqZZVpIm/aZpvaRpKmr22kmTe/2cjkdLsnYHdzYKHJuqNsFzQoOtPSzyztLD+rLKTAdtqq6piHdYOM/6M9afujm/SUUh7SrvHOt9h6oSmxt1Hp9sRVQ3As+mmnOcyPMCeUrBOBCkd+3Y6aiITDR2yE8lP2vVbJOmG0lwOF7DtSXpO9RvUF2ZPzJ1dA80V1ptdE68eyl5zlF52WiRrZwVzfLzcachZ41RukH+09xfeW1YeMIGSY40p0oi1dqhpwKtK3NdcHvSQofMQufTu1/gxKvKoKlkyh97o0euoNUdNtEG+xc1PAkki0iK4lNoNgszl55C0zm53mPndVVmbrTKqQAjr0C60937AifhBPiwxmda5Dx2+XxMeem81Xj9kMrcSGPRKPeCmI7jQRgPHC+q+7NwPnDqfn5OT5qalRms1DzyVFfR77x5a+Yia2Y9ryVAY4gm8tMALDd5T/pzdaLiNLdAFDlR5IU5L6fOnMaXaShX5KwdLTEPMre2uY7c+z44alGtEzDVeQ5d6/+8z1bYP0vC7+5b9kg9wzkAiaeeoamK5ztf6i15dWoA0YUtGGf351P3hCdy1lbxw2tNI56MLRAkcrS6lLLjndskP64G8JaiIBjA0xDzs2vlxsBWaBav/ZHSqqih0OULYDv9ce+xmxOl0D7ZT5pKC2j/D1ooP5csS7pm3qjLumNcDK8XqVlUQC2hZ2UPCZuJSi3KUYOyQiXg6h8HEkRuvQ78YW6lnNYukzIsnfOrZpZ7MuAwx9kOsdDNcboPvbqAvXQB0odfLYs/F0vlhwLKLtF7u/ITWkq+FtnCiZzBENQEKqumtvn//+x/JXh+Dk5eVzSX4V04k6cvy2LnXOPjYFogj05u2a3874s3yaTVhrpJVSuhx+cgRHfdI8T3qIVt56fUpCwfhncfeEMczKKX9AAU4feg8lebvxHzLVPSi3pD71P9GC1XJUjz/o6llEq/IkiB1A+RtIJiKD47SuGx8Mh2nIHTuBGOsr2Cv7/tKsST3rZ7ObXrFfgSPBj3nAfRcGOXx1kY7uEsn0FJ48/V83zACG1dCNdGVDqlt4zC/atcchM2sLOkSDnbYYAWtnvPk/aF3xVli5UUBpJoKISm238eShDnaFhC0CiPkdN2u9pt39JGDVcZlJq1S5y4h8YLyD0vJBGOZLudlagKV50lVeDUXyb58MiDGfRhvbJJ9a0zovWbI0XkNwXOIlL2y5O1253aO1cyRImB4jnZ06qPNm85+JQH8SqGhV9wQQPdj0fDNEOLf7+VluqInwe10/pnOP0e3vPCZHEbItKaUJqPO4tTO8g/d0RIa4A91DUuIHT2juG8l5N6MWxgJfESwQ11C1l2/Idk9J7g50Ya97OdX/5wVE6qoWsXH2IOrxHwS4j83AbD/+786N6U5AUjte106llLjvaOHBZf4/6doSWJvzZOXTV1XogpdXzkQy+GsAVqrgA/CED2DRub81s8kqqsus6clKruaKTLtOiaux735rUuXJvHapFMBqVngL0PAzJyA2CuAOzZEszG8cz3rkktHF2YtKOvSgctTsvkrk2Seko5Gh8e+vzq4+QjLHsivLk7eQ8QizaV03PtBXb6N3OVW78Bcr1J5Ie/HR4Og3rHXvKKVE0Txp2bfFYHlfM+Y4rnFIDao027eMBd92ECkN5dQrjtAiaeCP0C5XLXbfuKVS2Xi5c+Mdqcg5P7lulw2jTZdPKUtettPO6t3dMU6ALBS00jj8pSudx5V9CEIH373r/qgAiN1B+MUpumXYUE7Dwow+Xw6gpR13Zv8yZ5vfn2wLonOWEcbDBvAZuftjgORuM9xebV1cvKm8Fo4tcJfvI+PIKN1GsXHC8cd0Cau+5Tu6Lels8daBKkiaUyD6HEH8IwL6nf8LResbh0U7/upBevh9sQKtNJVWHqT7p+wX1nk1PXmNyYNhRrea6Pieucqwbs0Xj60D9mdW4yj2lh6KgZXDvOpFWRU9PdezF+0mVxrAi43s8H0/7r4c+cqqaKnSM9911nWypAHWBWFe+FDs8FAMgBm4u4yzWDFLl4DOC5mJljYvgN0hEtzpEs3bWU/NMO5/1pvyrcLhq9ySUaPcDRaN6qb+HwfUme8VLxRyF1f6dyWTRFB7KfZvh6ab1zcT7yqTqWyV2Hb1FcOV1XmO05L15WJk4ynYL3HjK9hJ4G61Cn1aRPY9G8IbSIPJDbNGnnkK6K2I2NrhLuOubwom/W65W5eF+APOsDKL239s3Pg4XKq+ZS5cXjWuJEwaUq4up9bW2xag/HfZTf+WyWqSD8ArkA9OHzS7aolTMaTIQDnMXpT5NwyE88CLafb5nZENx9GqQNX4VsOAzk7I4Cx8uaJC8HbdqFxXi+Nni1WlAVL2P3dVHEyKpFtf24AeWs2nb2KQbcEosXWzws/JRG6+jZI1wqc1IT0MaflG5+MT4KaZzuOty8gB4+SHI0aeAhNH4PpY9aZ7konNDUfyix7xdxK6XBsYPFtLzR58j7XTt0505ygtdb+12SOrseshxm28LUjyNCSBf0eTsdn7jUbU1QuKsRB+OHbTJKdO9ekuOt9ygM5HF8VZQKxjuH+emyLpMsy3BSt79zyKkimgAtbtdsDuH7rZl614k5x2vW5s3V4X3ujzf7VBbWkK9wSEjoY6+KoipxFiEJcZ1XTfSSeDrtap+9bnoD4UG74632eQFXhxUuCsfLT3lmOHXX10lSHw6Rbyyy1XY85CXOis2mwN5wGLerghhFfdivsq4r+wLHWbsvfeIGAcHb1emOpRT7zO0yjPGGBF0tqnJOdpvNzg1xwx3Kjft5qxs7durxPBSu22HPyxZPllQvXJrat21eFq7zdaLbXSGo1nFVVat8q1oSz4tmu90fTn2TLKb9bpyFMVweftCm24KzNq4raYMu2vfN86reD63MS5bWVNgpnGQQ9HsWckKQKHPxGnvF80xxXcWGWWwW0BZOHDQksME/zg5hFV+aGHY0YtOcqPDd3XUMjJclTVVV7Z6nV/0RWv0STUayg2GglUztw2MYtLDv3cjPvDZ63etqxv6Yy8/greKm06Gk2dGumdY7wfRnM0w/KZY5CpVp05YrLatqforA3fKatRkqNE5HMKzouyQv1g1RVhXY69tgAyRs56o/YX68Bmxc41yJTBtuCeYMDNf2HDvhzFuV7rPBxD9Fy681S9ndEp/OwaaXYGdxTYlIlq+u1ZDKnOSfo9dXO7QJrg+npk6yoihw+Xzpj5X/0m20EJiQ/wza0cNe3u+9juxouI7qdVSaRRjGRXXYVkXnrCUm5D+HPP+OF+HGa86Sqk7ZpjRtgiz0Oe7cjVc+3P1kqn8eXpJUXZfkjyMKPC/ImiUO1YH1Rf474OesZTMYDAaDwWAwGAwGg8FgMBgMBoPBYDAYjP9k/g7bIdKJcDMNmgAAAABJRU5ErkJggg==" alt="Project 1"><span class="project-title">Liverpool</span></div></li>
+				<li class="box"><div><img class="project" src="https://myplaypost.com/wp-content/uploads/2017/04/%E0%B8%9B%E0%B8%81-1.jpg" alt="Project 1"><span class="project-title">ROV</span></div></li>
+				<li class="box"><div><img class="project" src="https://www.posttoday.com/media/content/2016/11/28/6AC9BFC60BFE468E8B29FD934A2492CB.jpg" alt="Project 1"><span class="project-title">bar</span></div></li>
+				
+			</ul>
+    	</section>
+    	
+    	<section id="social-links">
+				<h3>Connect with Me</h3>
+				<ul>
+				  <li><a href="https://www.facebook.com/supanat22.01"><img class="icon" src="assets/images/facebook.png" alt="GitHub Profile"></a></li>
+				  <li><a href="http://line.me/ti/p/~pluem.mm"><img class="icon" src="https://d.line-scdn.net/n/line_lp/img/ogimage.png" alt="GitHub Profile"></a></li>
+				</ul>
+		  </section>
+
+	<!-- Don't remove-->
+	<footer>&#64; Copyright 2017 Meggin Kearney Thank you for education.</footer>
+</body>
+</html>
